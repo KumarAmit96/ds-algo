@@ -1,4 +1,4 @@
-package com.ds.algo;
+package com.ds.algo.hash;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -52,7 +52,7 @@ public class SubstringWithConcatenation {
         return ans;
     }
 
-    public List<Integer> findSubstring(String s, String[] words) {
+    public List<Integer> findSubstringByTypeTwo(String s, String[] words) {
         List<Integer> result = new ArrayList<>();
         if (s == null || s.isEmpty() || words == null || words.length == 0) {
             return result;
