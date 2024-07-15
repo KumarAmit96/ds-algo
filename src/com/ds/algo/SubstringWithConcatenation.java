@@ -11,7 +11,7 @@ public class SubstringWithConcatenation {
         SubstringWithConcatenation solution = new SubstringWithConcatenation();
         String s = "wordgoodwordgoodbestword";
         String[] words = {"word","good","best","word"};
-        System.out.println(solution.findSubstring(s, words)); // Output: [0, 9]
+        System.out.println(solution.findSubstring(s, words));
     }
 
     public List<Integer> findSubstring(String s, String[] words) {
